@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Halil_ibrahim_Amasya"
+        tools:targetApi="31">
+        <activity
+            android:name=".Tatlilar.Yufka_Tatlisi"
+            android:label="Amasya Yöresel Tatlılar"
+            android:exported="false" />
+        <activity
+            android:name=".Tatlilar.Elma_Tatlisi"
+            android:exported="false"
+            android:label="Amasya Yöresel Tatlılar" />
+        <activity
+            android:name=".Tatlilar.Dene_Hasudasi"
+            android:exported="false"
+            android:label="Amasya Yöresel Tatlılar" />
+        <activity
+            android:name=".Amasya_Tatlilar"
+            android:exported="false"
+            android:label="Amasya Yöresel Tatlıları" />
+        <activity
+            android:name=".Yemekler.Topuz_Kebabi"
+            android:exported="false"
+            android:label="Amasya Yöresel Yemekler" />
+        <activity
+            android:name=".Yemekler.Amasya_Coregi"
+            android:exported="false"
+            android:label="Amasya Yöresel Yemekler" />
+        <activity
+            android:name=".Yemekler.Bakla_Dolmasi"
+            android:exported="false"
+            android:label="Amasya Yöresel Yemekler" />
+        <activity
+            android:name=".Yemekler.Keskek"
+            android:exported="false"
+            android:label="Amasya Yöresel Yemekler" />
+        <activity
+            android:name=".Amasya_yoresel_yemekler"
+            android:exported="false"
+            android:label="Amasya Yöresel Yemekleri" />
+        <activity
+            android:name=".Yerler.Kral_Kaya_Mezarlari"
+            android:exported="false"
+            android:label="Amasya Tarihi Yerler" />
+        <activity
+            android:name=".Yerler.Bayezid_Kulliyesi"
+            android:exported="false"
+            android:label="Amasya Tarihi Yerler" />
+        <activity
+            android:name=".Yerler.Ferhat_Su_Kanali"
+            android:exported="false"
+            android:label="Amasya Tarihi Yerler" />
+        <activity
+            android:name=".Yerler.Amasya_Saat_Kulesi"
+            android:exported="false"
+            android:label="Amasya Tarihi Yerler" />
+        <activity
+            android:name=".Yerler.Amasya_Harsena_Kalesi"
+            android:exported="false"
+            android:label="Amasya Tarihi Yerler" />
+        <activity
+            android:name=".Amasya_tarihi_yerler"
+            android:exported="false"
+            android:label="Amasyada Bulunan Tarihi Yerler" />
+        <activity
+            android:name=".Amasya_Tarihce"
+            android:exported="false"
+            android:label="Amasya Tarihçe" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="Amasya">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
